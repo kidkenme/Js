@@ -18,4 +18,3 @@ let newVariable;
 
 console.table([name, accountId, email, someRandomVar]);
 
-
