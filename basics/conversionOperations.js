@@ -88,8 +88,7 @@ let str3 = str1 + str2
 
 console.log(str3); //hellowoe
 
-// STRING first then everythin's converted into string
-// number fi
+// STRING first then everything's converted into string
 
 console.log(typeof("3" + 2)); //string and 32
 console.log(typeof("2"+ 3 + 4 )); //string and 234
