@@ -105,5 +105,5 @@ console.log(+true); // 1
 
 //console.log(true +); // error
 
-
+console.log(+""); // 0
 
