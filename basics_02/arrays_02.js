@@ -9,7 +9,7 @@ const dc = ["superman", "batman"]
 const allHeros = marvel.concat(dc)
 console.log(allHeros); // returns a single array [ 'hulk', 'thor', 'superman', 'batman' ]
 
-const allHeros2 = [...marvel, ...dc] //(spread operator) most preffered way to merge two or more arrays (... spreads the elments of the array)
+const allHeros2 = [...marvel, ...dc] //(spread operator) most preferred way to merge two or more arrays (... spreads the elments of the array)
 console.log(allHeros2);
 
 
