@@ -70,3 +70,30 @@ console.log(Object.values(JSuser)); // returns an array of values in an object
 console.log(Object.entries(JSuser)); // returns an array of keys-value in an object
 
 
+
+
+const course = {
+    coursename: "js",
+    price: "999",
+    courseduration: "80hr"
+}
+
+// object de-structure
+const {courseduration} = course
+console.log(courseduration);
+
+//or
+const {courseduration: duration} = course
+console.log(duration); 
+
+
+//json
+
+// {
+//     "name" : "travis",
+//     "age" : "20",
+//     "id" : "1234"
+// }
+
+
+
